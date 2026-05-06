@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body {
+            font-family: Arial;
+        }
+
+        .block {
+            display: flex;
+        }
+
+        fieldset {
+            width: 400px;
+            border-collapse: collapse;
+            margin: 10px;
+        }
+        label, input {
+            display: block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset class="block">
+            <legend>Detalhes pessoais</legend>
+            <fieldset >
+                <legend>Detalhes de endereço</legend>
+                <label for="">Cidade</label>
+                <input type="text">
+                <label for="">CEP</label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Detalhes de contato</legend>
+                <label for="">Telefone</label>
+                <input type="text">
+                <label for="">Celular</label>
+                <input type="text">
+            </fieldset>
+        </fieldset>
+    </form>
+    <a href="index.html">Voltar</a>
+</body>
+</html>

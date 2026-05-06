@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        body {
+            font-family: Arial;
+        }
+
+        table {
+            width: 800px;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 4px;
+        }
+        input, select {
+            width: 100%;
+        }
+
+        .topo-esq {
+            background-color: lightblue;
+            color: black;
+            font-weight: bold;
+        }
+
+        .topo-dir {
+            background-color: darkblue;
+        }
+
+        .inline {
+            width: auto;
+        }
+
+        .small {
+            width: 80px;
+        }
+
+        .medio {
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+
+        <tr>
+            <td colspan="3" class="topo-esq">Não é associado? Faça seu cadastro</td>
+            <td class="topo-dir"></td>
+        </tr>
+
+        <tr>
+            <td>Nome</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Nome Completo</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>CPF</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>E-mail</td>
+            <td colspan="3"><input type="email"></td>
+        </tr>
+
+        <tr>
+            <td>WebSite</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Endereço</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Bairro</td>
+            <td><input type="text"></td>
+
+            <td> Cidade</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>CEP</td>
+            <td><input type="text"></td>
+
+            <td> UF</td>
+            <td>
+                <select>
+                    <option>BA</option>
+                    <option>SP</option>
+                    <option>RJ</option>
+                    <option>MG</option>
+                    <option>RS</option>
+                    <option>PR</option>
+                    <option>SC</option>
+                    <option>GO</option>
+                    <option>PE</option>
+                    <option>CE</option>
+                    <option>Outros</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Telefone</td>
+            <td><input type="text"></td>
+
+            <td> Fax</td>
+            <td><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Data Nascimento</td>
+            <td><input type="text"></td>
+
+            <td> Sexo</td>
+            <td>
+                <input type="radio" name="sexo" class="inline"> M
+                <input type="radio" name="sexo" class="inline"> F
+            </td>
+        </tr>
+
+        <tr>
+            <td>Celular</td>
+            <td><input type="text"></td>
+
+            <td> Est.Civil</td>
+            <td>
+                <select>
+                    <option>Solteiro</option>
+                    <option>Casado</option>
+                    <option>Viúvo</option>
+                    <option>Divorciado</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Login</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+
+        <tr>
+            <td>Senha</td>
+            <td colspan="3"><input type="password"></td>
+        </tr>
+
+        <tr>
+        <td colspan="4">
+        Deseja receber informações sobre os seguintes assuntos abaixo:<br>
+
+        <input type="checkbox"> Tecnologia
+        <input type="checkbox"> Esportes
+        <input type="checkbox"> Automóveis
+        <input type="checkbox"> Culinária
+        <input type="checkbox"> Política
+        <input type="checkbox"> Polícia
+        <input type="checkbox"> Tempo
+
+        <input type="checkbox"> Cultura
+        <input type="checkbox"> Economia
+        <input type="checkbox"> Jogos
+        <input type="checkbox"> Educação
+        <input type="checkbox"> Viagem
+        <input type="checkbox"> Empregos
+        <input type="checkbox"> Moda e Estilo
+        </td>
+        </tr>
+
+        <tr>
+        <td colspan="4">
+        <input type="checkbox"> Li as regras de cadastro e autorizo a criação do usuário
+        </td>
+        </tr>
+
+        <tr>
+        <td colspan="4">
+        <button type="submit">Confirmar</button>
+        <button type="reset">Retornar</button>
+        </td>
+        </tr>
+
+        </table>
+    </form>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
